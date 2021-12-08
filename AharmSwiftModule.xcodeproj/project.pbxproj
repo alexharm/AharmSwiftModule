@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE1B74B4276029C0006D521E /* AharmSwiftModule.docc in Sources */ = {isa = PBXBuildFile; fileRef = AE1B74B3276029C0006D521E /* AharmSwiftModule.docc */; };
-		AE1B74B5276029C0006D521E /* AharmSwiftModule.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1B74B2276029C0006D521E /* AharmSwiftModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1B74CC27602A42006D521E /* TestAgain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1B74CB27602A42006D521E /* TestAgain.swift */; };
+		AE1B74D527602DBB006D521E /* HRToast+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1B74D427602DBB006D521E /* HRToast+UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AE1B74AF276029C0006D521E /* AharmSwiftModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AharmSwiftModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE1B74B2276029C0006D521E /* AharmSwiftModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AharmSwiftModule.h; sourceTree = "<group>"; };
-		AE1B74B3276029C0006D521E /* AharmSwiftModule.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AharmSwiftModule.docc; sourceTree = "<group>"; };
+		AE1B74C0276029E7006D521E /* AharmSharedModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AharmSharedModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1B74CB27602A42006D521E /* TestAgain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAgain.swift; sourceTree = "<group>"; };
+		AE1B74D427602DBB006D521E /* HRToast+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HRToast+UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AE1B74AC276029C0006D521E /* Frameworks */ = {
+		AE1B74BD276029E7006D521E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,7 +31,7 @@
 		AE1B74A5276029C0006D521E = {
 			isa = PBXGroup;
 			children = (
-				AE1B74B1276029C0006D521E /* AharmSwiftModule */,
+				AE1B74C1276029E7006D521E /* AharmSharedModule */,
 				AE1B74B0276029C0006D521E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,50 +39,49 @@
 		AE1B74B0276029C0006D521E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE1B74AF276029C0006D521E /* AharmSwiftModule.framework */,
+				AE1B74C0276029E7006D521E /* AharmSharedModule.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE1B74B1276029C0006D521E /* AharmSwiftModule */ = {
+		AE1B74C1276029E7006D521E /* AharmSharedModule */ = {
 			isa = PBXGroup;
 			children = (
-				AE1B74B2276029C0006D521E /* AharmSwiftModule.h */,
-				AE1B74B3276029C0006D521E /* AharmSwiftModule.docc */,
+				AE1B74D427602DBB006D521E /* HRToast+UIView.swift */,
+				AE1B74CB27602A42006D521E /* TestAgain.swift */,
 			);
-			path = AharmSwiftModule;
+			path = AharmSharedModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AE1B74AA276029C0006D521E /* Headers */ = {
+		AE1B74BB276029E7006D521E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE1B74B5276029C0006D521E /* AharmSwiftModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AE1B74AE276029C0006D521E /* AharmSwiftModule */ = {
+		AE1B74BF276029E7006D521E /* AharmSharedModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE1B74B8276029C0006D521E /* Build configuration list for PBXNativeTarget "AharmSwiftModule" */;
+			buildConfigurationList = AE1B74C6276029E7006D521E /* Build configuration list for PBXNativeTarget "AharmSharedModule" */;
 			buildPhases = (
-				AE1B74AA276029C0006D521E /* Headers */,
-				AE1B74AB276029C0006D521E /* Sources */,
-				AE1B74AC276029C0006D521E /* Frameworks */,
-				AE1B74AD276029C0006D521E /* Resources */,
+				AE1B74BB276029E7006D521E /* Headers */,
+				AE1B74BC276029E7006D521E /* Sources */,
+				AE1B74BD276029E7006D521E /* Frameworks */,
+				AE1B74BE276029E7006D521E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AharmSwiftModule;
-			productName = AharmSwiftModule;
-			productReference = AE1B74AF276029C0006D521E /* AharmSwiftModule.framework */;
+			name = AharmSharedModule;
+			productName = AharmSharedModule;
+			productReference = AE1B74C0276029E7006D521E /* AharmSharedModule.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -94,7 +93,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					AE1B74AE276029C0006D521E = {
+					AE1B74BF276029E7006D521E = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -112,13 +111,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE1B74AE276029C0006D521E /* AharmSwiftModule */,
+				AE1B74BF276029E7006D521E /* AharmSharedModule */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AE1B74AD276029C0006D521E /* Resources */ = {
+		AE1B74BE276029E7006D521E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,11 +127,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AE1B74AB276029C0006D521E /* Sources */ = {
+		AE1B74BC276029E7006D521E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE1B74B4276029C0006D521E /* AharmSwiftModule.docc in Sources */,
+				AE1B74D527602DBB006D521E /* HRToast+UIView.swift in Sources */,
+				AE1B74CC27602A42006D521E /* TestAgain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,7 +191,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -261,7 +261,7 @@
 			};
 			name = Release;
 		};
-		AE1B74B9276029C0006D521E /* Debug */ = {
+		AE1B74C7276029E7006D521E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -280,7 +280,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.aharm.AharmSwiftModule;
+				PRODUCT_BUNDLE_IDENTIFIER = net.aharm.AharmSharedModule;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -289,7 +289,7 @@
 			};
 			name = Debug;
 		};
-		AE1B74BA276029C0006D521E /* Release */ = {
+		AE1B74C8276029E7006D521E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -308,7 +308,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.aharm.AharmSwiftModule;
+				PRODUCT_BUNDLE_IDENTIFIER = net.aharm.AharmSharedModule;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -329,11 +329,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE1B74B8276029C0006D521E /* Build configuration list for PBXNativeTarget "AharmSwiftModule" */ = {
+		AE1B74C6276029E7006D521E /* Build configuration list for PBXNativeTarget "AharmSharedModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE1B74B9276029C0006D521E /* Debug */,
-				AE1B74BA276029C0006D521E /* Release */,
+				AE1B74C7276029E7006D521E /* Debug */,
+				AE1B74C8276029E7006D521E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
